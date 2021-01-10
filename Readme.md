@@ -1,8 +1,10 @@
-Example how to use "Pulumi + ( AppSync + Lambda + DynamoDB )" based on:
+# Example how create "AppSync + Lambda + DynamoDB" via Infrastructure as Code Provider "Pulumi".
+
+This example based on next resourses:
 - https://medium.com/@wesselsbernd/bff-back-end-for-front-end-architecture-as-of-may-2019-5d09b913a8ed
 - https://www.youtube.com/watch?v=rjiiNpJzOYk
 
-.env file should includes:
+.env file should include:
 ```
 USER_POOL_ID=
 USER_POOL_AWS_REGION=
